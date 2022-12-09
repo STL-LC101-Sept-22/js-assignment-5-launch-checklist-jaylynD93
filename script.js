@@ -9,8 +9,8 @@ let list = document.getElementById("faultyItems");
    list.style.visibility = "hidden"
     function FormSubmit(event) {
           event.preventDefault();
-               let pilotNameInput = document.querySelector("input[name=pilotName]");
-               let pilot = pilotNameInput.value;
+               let pNameInput = document.querySelector("input[name=pilotName]");
+               let pilot = pNameInput.value;
 
                let copilotNameInput = document.querySelector("input[name=copilotName]");
                let copilot = copilotNameInput.value;
